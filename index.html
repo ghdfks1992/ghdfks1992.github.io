@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>포트폴리오</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<link rel="icon" type="image/png" href="./images/logo.png">
+<script src="./main.js" defer></script>
+<script src="https://kit.fontawesome.com/202a2586ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+
+    <div class="navbar_logo">
+      <img src="images/logo.png" alt="logo">
+      <a href="#">PORTFOLIO</a>
+    </div>
+
+    <ul class="navbar_menu">
+      <li class="navbar_item active" data-link="#home">Home</li>
+      <li class="navbar_item" data-link="#about">About</li>
+      <li class="navbar_item" data-link="#skills">Skill</li>
+      <li class="navbar_item" data-link="#work">Work</li>
+      <li class="navbar_item" data-link="#contact">Contact</li>
+    </ul>
+    
+
+    <i class="fas fa-bars navbar_toggle_btn" ></i>
+  </nav>
+
+  <!-- HOME -->
+  <section id="home">
+      <div class="home_container">
+      <img src="./images/증명사진.jpg" alt="profile" class="home_image">
+      <h1 class="home_title">Hello, <br> I'm a Frontend Developer</h1>
+      <h2 class="home_description">새로운 기술 습득에 거부감이 없으며, 항상 발전하는 예비 개발자 입니다.</h2>
+      <button class="home_button" data-link="#contact">Contact Me</button>
+      </div>
+    </section>
+
+  <!-- About --> 
+  <section id="about" class="section">
+    <h1>About me</h1>
+    <div class="about_majors">
+
+      <div class="major">
+        <div class="major_icon">
+          <i class="fab fa-html5"></i>
+          <i class="fab fa-css3-alt"></i>
+          <i class="fab fa-js"></i>
+        </div>
+        <h2 class="major_title">Publishing</h2>
+        <div class="major_description">HTML, CSS, JAVASCRIPT</div>
+      </div>
+
+      <div class="major">
+        <div class="major_icon">
+          <i class="fab fa-react"></i>
+          <i class="fab fa-vuejs"></i>
+        </div>
+        <h2 class="major_title">Frontend</h2>
+        <div class="major_description">REACT, REDUX, VUE, VUEX</div>
+      </div>
+
+      <div class="major">
+        <div class="major_icon">
+          <i class="fab fa-bootstrap"></i>
+        </div>
+        <h2 class="major_title">Etc</h2>
+        <div class="major_description">BOOTSTRAP, JQUERY, TYPESCRIPT</div>
+      </div>
+    </div>
+
+    <div class="about_me">
+
+      <p class="school">
+        <i class="fas fa-graduation-cap"></i>
+        숙명여자대학교 경영학부 → 2018년 8월 졸업
+      </p>
+
+      <p class="edu">
+        <i class="fas fa-laptop-code"></i>
+        국비 웹퍼블리셔 과정 → 2019년 8월 수료
+      </p>
+
+      <p class="edu">
+        <i class="fas fa-pencil-alt"></i>
+        코딩애플, 드림코딩 리액트 인강 -> 2022년 수강완료(노마드코더 리액트 네이티브 수강중)
+      </p>
+
+      <p class="job">
+        <i class="fas fa-briefcase"></i>
+        서울시청 행정,법무팀 → 2015~2016년 근무
+      </p>
+
+      <p class="ect">
+        <i class="fas fa-id-card"></i>
+        컴퓨터활용능력 2급 ,
+        ERP 인사 정보관리사 2급 ,
+       OPIC IM2 보유
+      </p>
+
+    
+
+
+    </div>
+  </section>
+
+  <!-- SKILL -->
+  <section id="skills" >
+    <div class="section">
+    <h1>Skills</h1>
+    <h2>Skills & Attributes</h2>
+    
+    <div class="skillset">
+
+      <div class="skillset_left">
+
+        <h3 class="skillset_title" style="font-weight: 600;">Skills</h3>
+
+        <div class="skill">
+          <div class="skill_description">
+            <span>HTML</span>
+            <span>90%</span>
+          </div>
+          <div class="skill_bar" >
+            <div class="skill_value" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_description">
+            <span>CSS</span>
+            <span>80%</span>
+          </div>
+          <div class="skill_bar"  >
+            <div class="skill_value" style="width: 80%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_description">
+            <span>JAVASCRIPT</span>
+            <span>60%</span>
+          </div>
+          <div class="skill_bar"  >
+            <div class="skill_value" style="width: 50%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_description">
+            <span>REACT</span>
+            <span>50%</span>
+          </div>
+          <div class="skill_bar" >
+            <div class="skill_value"  style="width: 50%;"></div> 
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_description">
+            <span>VUE</span>
+            <span>40%</span>
+          </div>
+          <div class="skill_bar">
+            <div class="skill_value"  style="width: 50%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_description">
+            <span>TYPESCRIPT</span>
+            <span>20%</span>
+          </div>
+          <div class="skill_bar">
+            <div class="skill_value"  style="width: 30%;"></div>
+          </div>
+        </div>
+
+        <div class="skill">
+          <div class="skill_description">
+            <span>JQUERY</span>
+            <span>50%</span>
+          </div>
+          <div class="skill_bar">
+            <div class="skill_value"  style="width: 50%;"></div>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="skillset_right">
+
+        <div class="etc">
+          <h3 class="skillset_title" style="font-weight: 600;">Etc</h3>
+          <p>Github</p>
+          <p>BOOTSTRAP</p>
+        </div>
+
+        <div class="tools">
+          <h3 class="skillset_title" style="color: white;font-weight: 600;">Tools</h3>
+          <ul class="tools_list">
+            <li><span>Visual Studio Code</span></li>
+            <li><span>Figma</span></li>
+            <li><span>Zeplin</span></li>
+          </ul>
+        </div>
+        
+        
+
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="section">
+    <h1>My work</h1>
+    <h3>Projects</h3>
+
+    <div class="work_categories">
+      <button class="category_btn active" data-filter="all">All</button>
+      <button class="category_btn" data-filter="publishing">Publishing(2019)</button>
+      <button class="category_btn" data-filter="react">React(2022)</button>
+      <button class="category_btn" data-filter="clone">Vue(2022)</button>
+    </div>
+
+    <div class="work_projects">
+      <a href=" https://akfn1209.github.io/cafe/" class="project" target="blank" data-type="publishing">
+        <img src="./images/미미미.PNG" alt="" class="project_img">
+        <div class="project_description">
+          <h3>Cafe MiMiMi</h3>
+          <span>Self design & coding</span>
+          <span>HTML, CSS, JAVASCRIPT, JQUERY</span>
+        </div>
+      </a>
+
+      <a href="https://akfn1209.github.io/hotel/" class="project" target="blank" data-type="publishing">
+        <img src="./images/신라.PNG" alt="" class="project_img">
+        <div class="project_description">
+          <h3>Hotel Shinra</h3>
+          <span>Self design & coding</span>
+          <span>HTML, CSS, JAVASCRIPT, JQUERY</span>
+        </div>
+      </a>
+
+      <a href="https://akfn1209.github.io/youtube/" class="project" target="blank" data-type="react">
+        <img src="./images/유튜브.PNG" alt="" class="project_img">
+        <div class="project_description">
+          <h3>Youtube Site</h3>
+          <span>Clone coding</span>
+          <span>HTML, CSS, JAVASCRIPT, REACT</span>
+        </div>
+      </a>
+
+      <a href="https://akfn1209.github.io/youtube/" class="project" target="blank" data-type="react">
+        <img src="./images/슈즈샵.PNG" alt="" class="project_img">
+        <div class="project_description">
+          <h3>shoes shop</h3>
+          <span>HTML, CSS, BOOTSTRAP<br> JAVASCRIPT, REACT</span>
+        </div>
+      </a>
+
+      <a href="https://akfn1209.github.io" class="project" target="blank" data-type="clone">
+        <img src="./images/vue.PNG" alt="" class="project_img">
+        <div class="project_description">
+          <h3>Vuestargram</h3>
+          <span>Clone coding</span>
+          <span>HTML, CSS, JAVASCRIPT, VUE</span>
+        </div>
+      </a>
+
+      <a href="https://peaceful-jennings-c7c452.netlify.app" class="project" target="blank" data-type="publishing">
+        <img src="./images/스타벅스.PNG" alt="" class="project_img">
+        <div class="project_description">
+          <h3>Starbucks</h3>
+          <span>Clone coding</span>
+          <span>HTML, CSS, JAVASCRIPT, JQUERY</span>
+        </div>
+      </a>
+
+     
+    </div>
+
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section">
+    <h1 class="contact_title">Let's talk</h1>
+    <h2 class="contact_email">ghdfks1992@nate.com</h2>
+    <h2>010-8245-9212</h2>
+    <div class="contact_links">
+      <a href="https://github.com/akfn1209?tab=repositories" target="blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="tel:010-8245-9212">
+        <i class="fas fa-mobile-alt"></i>
+      </a>
+    </div>
+    <p class="contact_rights">
+      2021 JeongEun's Portfolio - All rights reserved
+    </p>
+  </div>
+  </section>
+
+<!-- Arrow up -->
+<button class="arrow-up">
+  <i class="fas fa-arrow-circle-up"></i>
+</button>
+</body>
+</html>
